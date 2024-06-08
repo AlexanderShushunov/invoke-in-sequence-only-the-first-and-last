@@ -1,0 +1,18 @@
+{
+  "name": "invoke-in-sequence-only-the-first-and-last",
+  "version": "1.0.0",
+  "description": "This high-order function wraps an asynchronous function to ensure controlled execution. When the wrapped function is invoked, it starts executing immediately if it's the first call. However, if the function is called multiple times before the first execution completes, only the last call will be executed once the first execution finishes. This mechanism ensures that no parallel executions occur, and redundant calls are ignored until the initial execution is complete.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JS",
+    "TS",
+    "async",
+    "sequence",
+    "HOF"
+  ],
+  "repository": "https://github.com/AlexanderShushunov/invoke-in-sequence-only-the-first-and-last",
+  "author": "Alexandr Shushunov",
+  "license": "ISC"
+}
