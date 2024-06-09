@@ -1,4 +1,4 @@
-### High Order Function for Async Function Wrapping
+### Invoke In Sequence Only The First And Last
 
 This high-order function wraps an asynchronous function to
 ensure controlled execution. When the wrapped function
